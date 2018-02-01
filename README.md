@@ -5,9 +5,9 @@ We have a homemade helicopter non-directional beacon onboard the Greenpeace ship
 
 However we have a Kenwood TS-480, which can transmit within the range of this ADF. So I wrote this little script to control the Kenwood via CAT commands through serial, to loop through a morse message (our ship's call sign) on CW and it works good.
 
-##Usage:
+## Usage:
 ```python heli_beacon.py {timer in minutes}```
 
-###Example: 
+### Example: 
 ```python heli_beacon.py 30```
 
